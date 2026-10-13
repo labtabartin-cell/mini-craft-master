@@ -1,0 +1,11 @@
+:root{font-family:system-ui,sans-serif;color:#fff;background:#101010}
+*{box-sizing:border-box}
+html,body,#app{margin:0;width:100%;height:100%;overflow:hidden}
+#app{position:relative;background:#111}
+#game{position:absolute;inset:0;width:100%;height:100%;display:block;image-rendering:pixelated}
+.ui-root{position:absolute;inset:0;pointer-events:none}
+.ui-control{position:absolute;pointer-events:auto;image-rendering:pixelated}
+.ui-label{white-space:pre;text-shadow:1px 1px 0 #000;font-size:14px}
+.ui-button{font:inherit;color:#fff;background:#4f4f4f;border:2px solid #ddd;box-shadow:inset 0 0 0 2px #2a2a2a;padding:6px 10px}
+.ui-button:active{transform:translateY(1px)}
+.status{position:absolute;left:8px;bottom:8px;background:#000c;padding:6px 8px;font-size:12px;color:#ddd;z-index:99}
